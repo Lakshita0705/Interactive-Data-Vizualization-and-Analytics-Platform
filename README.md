@@ -1,6 +1,6 @@
-# 🩺 Health Trend & Early Warning Analytics Platform
+#  Health Trend & Early Warning Analytics Platform
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on analyzing health-related data over time—such as heart rate, physical activity, sleep patterns, and lifestyle habits—to identify early warning trends that may indicate potential health risks.
 
@@ -10,7 +10,7 @@ The platform also analyzes how lifestyle factors—like sleep duration, physical
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - 📈 *Health Trend Monitoring* – Tracks vital metrics over time  
 - ⚠️ *Risk Trajectory Visualization* – Shows how risk evolves  
@@ -31,7 +31,7 @@ These services communicate with a central database and are containerized using D
 
 ---
 
-## 📊 Power BI Visualization
+##  Power BI Visualization
 
 The processed insights are visualized using Power BI dashboards, including:
 
@@ -42,13 +42,13 @@ The processed insights are visualized using Power BI dashboards, including:
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The main goal of this project is *preventive analytics*—helping users recognize unhealthy trends early so they can take timely lifestyle actions.
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Integration with real wearable APIs  
 - Real-time data streaming  
