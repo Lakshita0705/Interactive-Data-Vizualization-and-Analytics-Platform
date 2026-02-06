@@ -12,14 +12,14 @@ The platform also analyzes how lifestyle factors—like sleep duration, physical
 
 ##  Key Features
 
-- 📈 *Health Trend Monitoring* – Tracks vital metrics over time  
-- ⚠️ *Risk Trajectory Visualization* – Shows how risk evolves  
-- 🔗 *Lifestyle vs Health Correlation* – Connects habits with health outcomes  
-- 🚨 *Early Warning Alerts* – Flags abnormal patterns  
+- *Health Trend Monitoring* – Tracks vital metrics over time  
+- *Risk Trajectory Visualization* – Shows how risk evolves  
+- *Lifestyle vs Health Correlation* – Connects habits with health outcomes  
+- *Early Warning Alerts* – Flags abnormal patterns  
 
 ---
 
-## 🐳 System Architecture (Docker-Based)
+##  System Architecture (Docker-Based)
 
 The entire system is built using Docker, where different services operate independently:
 
