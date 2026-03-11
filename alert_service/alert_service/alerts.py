@@ -1,16 +1,18 @@
-import pandas as pd
+def generate_alerts(df, baseline):
+    alerts = []
 
-def generate_alerts():
-    df = pd.read_csv("data/processed_health_data.csv")
+    latest = df.iloc[-1]
 
-    threshold = 5
+    # Heart rate alert
+    if latest["heart_rate"] > baseline["heart_rate"] * 1.15:
+        alerts.append("⚠ Heart rate significantly above baseline")
 
-    df['alert'] = df['risk_score'].apply(
-        lambda x: "⚠️ Elevated Risk" if x > threshold else "Normal"
-    )
+    # Sleep alert
+    if latest["sleep_hours"] < baseline["sleep_hours"] * 0.85:
+        alerts.append("⚠ Sleep hours significantly below baseline")
 
-    print("Alerts Generated")
-    print(df[['date', 'risk_score', 'alert']])
+    # Activity alert
+    if latest["steps"] < baseline["steps"] * 0.7:
+        alerts.append("⚠ Physical activity dropped significantly")
 
-if __name__ == "__main__":
-    generate_alerts()
+    return alerts
