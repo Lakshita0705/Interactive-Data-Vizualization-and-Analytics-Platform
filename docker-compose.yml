@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+
+  ingestion:
+    build: .
+    command: python ingestion_service/ingest.py
+    volumes:
+      - .:/app
+
+  analytics:
+    build: .
+    command: python analytics_service/trend_analysis.py
+    volumes:
+      - .:/app
+
+  alerts:
+    build: .
+    command: python alert_service/alert_generator.py
+    volumes:
+      - .:/app
