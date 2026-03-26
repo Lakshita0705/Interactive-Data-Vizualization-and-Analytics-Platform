@@ -19,32 +19,26 @@ The platform also analyzes how lifestyle factors—like sleep duration, physical
 
 ---
 
-##  System Architecture (Docker-Based)
-
-The entire system is built using Docker, where different services operate independently:
-
-- *Data Ingestion Service* – Collects and preprocesses health data  
-- *Analytics Engine* – Processes trends and detects anomalies  
-- *Alert Generation Service* – Generates early warnings based on rules  
-
-These services communicate with a central database and are containerized using Docker for scalability and portability.
-
----
-
 ##  Power BI Visualization
 
 The processed insights are visualized using Power BI dashboards, including:
 
-- Time-series health trends  
-- Risk progression over time  
-- Lifestyle vs health correlation charts  
-- Early warning alert summaries  
+- Heart Rate Trend
+- Risk Score Over Time
+- Sleep vs Heart Rate Analysis (Scatter Plot)
+- Alerts Table with Conditional Formatting
+- KPI Cards (Avg Heart Rate, Sleep, Risk Score)  
 
 ---
 
 ##  Objective
 
-The main goal of this project is *preventive analytics*—helping users recognize unhealthy trends early so they can take timely lifestyle actions.
+The primary goal of this project is to:
+
+- Detect early warning signals from health data
+- Analyze time-based trends and deviations
+- Provide visual insights using interactive dashboards
+- Promote preventive healthcare awareness
 
 ---
 
